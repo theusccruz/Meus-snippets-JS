@@ -70,7 +70,7 @@
 		"description": "Data em formato padrão"
 	},
 	"addEventListener() Method": {
-		"prefix": "addEv",
+		"prefix": "addEvLs",
 		"body": [
 			"${1:element}.addEventListener('${2:event}', e => {",
 			"    $0",
