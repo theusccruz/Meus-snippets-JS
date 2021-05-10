@@ -69,4 +69,13 @@
 		],
 		"description": "Data em formato padrão"
 	},
+	"addEventListener() Method": {
+		"prefix": "addEv",
+		"body": [
+			"${1:element}.addEventListener('${2:event}', e => {",
+			"    $0",
+			"});"			
+		],
+		"description": "Attaches an event handler to the specified element"
+	}
 }
