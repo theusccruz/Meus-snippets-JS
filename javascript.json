@@ -29,6 +29,15 @@
 		],
 		"description": "Array manipulation with filter()"
 	},
+	"Find Loop": {
+		"prefix": "find",
+		"body": [
+			"${1:array}.find(${2:element} => {",
+			"    return $0;",
+			"});"
+		],
+		"description": "Array manipulation with find()"
+	},
 	"Reduce Loop": {
 		"prefix": "reduce",
 		"body": [
