@@ -54,6 +54,15 @@
 		],
 		"description": "Array manipulation with find()"
 	},
+	"FindIndex Loop": {
+		"prefix": "findIndex",
+		"body": [
+			"${1:array}.findIndex(${2:element} => {",
+			"  return $0;",
+			"});"
+		],
+		"description": "Array manipulation with findIndex()"
+	},
 	"Reduce Loop": {
 		"prefix": "reduce",
 		"body": [
